@@ -2,6 +2,7 @@
 
 This project is a mandatory 42 common core graphic project using MiniLibX,
 it is here deployed in a simple Docker setup (ubuntu).
+The entire MiniLibX is in the repo, but can be cloned from Github to lighten the code.
 To run it, you need to have Docker installed, then use the following commands:
 
 `make docker-build`
