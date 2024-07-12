@@ -1,0 +1,19 @@
+# SO_LONG on Docker
+
+This project is a mandatory 42 common core graphic project using MiniLibX,
+it is here deployed in a simple Docker setup (ubuntu).
+To run it, you need to have Docker installed, then use the following commands:
+
+`make docker-build`
+`xhost +local:docker`
+`make docker-run`
+
+Then, you'll be inside the virtual container, enter the following commands :
+
+`make`
+`./so_long <map_arg>`
+
+Beware of sharing the graphic ressources of the host with Docker, without this,
+the Minilibx functions won't run !
+
+Enjoy !
